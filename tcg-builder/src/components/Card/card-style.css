@@ -9,12 +9,6 @@
     background-color: #929292;
     border-radius: 14px;
     border: 11px solid #5a5a5a;
-    transition: transform 0.2s ease-in-out;
-    transform-origin: center center;
-}
-
-.card-container:hover {
-    transform: scale(1.06);
 }
 
 .card-info {
@@ -25,12 +19,17 @@
     width: 90%;
     height: 35px;
     margin-top: 10px;
-    border: 1px solid red;
 
-    p {
-        font-size: 18px;
-        margin-left: 20px;
-        border: 1px solid aquamarine;
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        p {
+            font-size: 18px;
+            text-align: left;
+            padding-left: 15px;
+        }
     }
 
     .card-ranking {
@@ -38,7 +37,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        border: 1px solid red;
+        cursor: pointer;
 
         p {
             font-size: 18px;
@@ -53,17 +52,22 @@
 
 .card-illustration {
     width: 90%;
-    height: 190px;
+    height: 230px;
     margin-top: 20px;
     border-radius: 5px;
-    border: 1px solid red;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #5a5a5a;
 }
 
 .card-effects {
-    width: 100%;
-    height: 180px;
+    width: 95%;
+    height: 140px;
     margin-top: 20px;
-    border: 1px solid red;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1.5px solid #5a5a5a;
+    border-radius: 5px;
 }
 
 .card-attributes {
@@ -71,7 +75,9 @@
     position: absolute;
     right: 20px;
     bottom: 10px;
-    border: 1px solid red;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
 
     p {
         font-size: 18px;
